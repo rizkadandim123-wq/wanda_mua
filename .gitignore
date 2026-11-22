@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Penyimpanan R2 simulasi lokal saat dev (tidak ikut ke produksi)
+.local-r2/
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+*.log

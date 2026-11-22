@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="fav-blush" cx="50%" cy="40%" r="58%">
+      <stop offset="0%" stop-color="#FFF9F5" />
+      <stop offset="72%" stop-color="#F8E6EB" />
+      <stop offset="100%" stop-color="#F2D4DE" />
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="18" fill="url(#fav-blush)" />
+  <circle cx="32" cy="34" r="23.5" fill="#FFF9F5" stroke="#B96B78" stroke-width="1.25" stroke-opacity="0.82" />
+  <circle cx="32" cy="34" r="20.2" stroke="#C89B8E" stroke-width="0.7" stroke-dasharray="2 2" stroke-opacity="0.65" />
+
+  <!-- Mahkota Bunga Mawar Atas -->
+  <g stroke="#B96B78" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 4.5C29.6 7.4 29.6 10.6 32 12.8C34.4 10.6 34.4 7.4 32 4.5Z" fill="#FFF9F5" />
+    <path d="M32 12.8C27.2 10.5 22.8 11.6 21.4 14.5C25.2 15.6 29 14.6 32 12.8Z" fill="#F8E6EB" />
+    <path d="M32 12.8C36.8 10.5 41.2 11.6 42.6 14.5C38.8 15.6 35 14.6 32 12.8Z" fill="#F8E6EB" />
+  </g>
+
+  <!-- Monogram Editorial "NY" -->
+  <g fill="#8F454B">
+    <!-- Huruf N -->
+    <rect x="17.5" y="25" width="2" height="19" />
+    <rect x="29.5" y="25" width="2" height="19" />
+    <polygon points="17.5,25 20.5,25 31.5,44 28.5,44" />
+    <rect x="15.8" y="24.5" width="5.4" height="1.2" rx="0.6" />
+    <rect x="15.8" y="43.3" width="5.4" height="1.2" rx="0.6" />
+    <rect x="27.8" y="24.5" width="5.4" height="1.2" rx="0.6" />
+
+    <!-- Huruf Y -->
+    <polygon points="34.8,25 37.9,25 42.2,34.5 39.7,35.6" />
+    <polygon points="48.2,25 45.4,25 40.6,34.6 42.8,35.6" />
+    <rect x="40.3" y="34" width="2.2" height="10" />
+    <rect x="33.4" y="24.5" width="5.5" height="1.2" rx="0.6" />
+    <rect x="44.2" y="24.5" width="5.2" height="1.2" rx="0.6" />
+    <rect x="38.7" y="43.3" width="5.4" height="1.2" rx="0.6" />
+  </g>
+
+  <!-- Titik Sparkle Rose-Gold -->
+  <circle cx="32" cy="51.2" r="1.35" fill="#B96B78" />
+</svg>

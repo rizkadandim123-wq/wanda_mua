@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="niwa-blush-glow" cx="50%" cy="42%" r="54%">
+      <stop offset="0%" stop-color="#FFF9F5" />
+      <stop offset="68%" stop-color="#F8E6EB" />
+      <stop offset="100%" stop-color="#F3D9E1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Medallion Soft Blush -->
+  <circle cx="60" cy="60" r="46" fill="url(#niwa-blush-glow)" />
+  <circle cx="60" cy="60" r="46" stroke="#B96B78" stroke-width="1.2" stroke-opacity="0.75" />
+  <circle
+    cx="60"
+    cy="60"
+    r="40.5"
+    stroke="#B96B78"
+    stroke-width="0.75"
+    stroke-dasharray="2.5 2.5"
+    stroke-opacity="0.55"
+  />
+
+  <!-- Ornamen Bunga Atas -->
+  <g stroke="#B96B78" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 8C56.5 12 56.5 16.5 60 19.5C63.5 16.5 63.5 12 60 8Z" fill="#FFF9F5" />
+    <path d="M60 19.5C53.5 16.5 47.5 18 45.5 22C50.5 23.5 56 22 60 19.5Z" fill="#F8E6EB" />
+    <path d="M60 19.5C66.5 16.5 72.5 18 74.5 22C69.5 23.5 64 22 60 19.5Z" fill="#F8E6EB" />
+    <path d="M43 24C39 25 36.5 27.5 36 30" stroke-opacity="0.75" />
+    <path d="M77 24C81 25 83.5 27.5 84 30" stroke-opacity="0.75" />
+  </g>
+
+  <!-- Ornamen Ranting Bawah -->
+  <g stroke="#B96B78" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M51 103C54.5 106 58 106.5 60 105C62 106.5 65.5 106 69 103" />
+    <circle cx="60" cy="109.5" r="1.4" fill="#B96B78" stroke="none" />
+  </g>
+
+  <!-- Monogram Serif Editorial "N" -->
+  <g fill="#8F454B">
+    <!-- Batang kiri tipis -->
+    <rect x="42.5" y="42" width="2.2" height="36" />
+    <!-- Batang kanan tipis -->
+    <rect x="75.3" y="42" width="2.2" height="36" />
+    <!-- Diagonal tebal -->
+    <polygon points="42.5,42 47.2,42 77.5,78 72.8,78" />
+    <!-- Serif halus -->
+    <rect x="38.5" y="41.4" width="10.2" height="1.5" rx="0.75" />
+    <rect x="38.5" y="77.1" width="10.2" height="1.5" rx="0.75" />
+    <rect x="71.3" y="41.4" width="10.2" height="1.5" rx="0.75" />
+  </g>
+</svg>
